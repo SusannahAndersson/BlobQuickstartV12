@@ -6,7 +6,7 @@ using Azure.Identity;
 
 // TODO: Replace <storage-account-name> with your actual storage account name
 var blobServiceClient = new BlobServiceClient(
-        new Uri("https://<BlobQuickstartV12>.blob.core.windows.net"),
+        new Uri("https://BlobQuickstartV12.blob.core.windows.net"),
         new DefaultAzureCredential());
 
 //Create a unique name for the container
