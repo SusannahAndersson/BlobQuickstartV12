@@ -4,6 +4,9 @@ using System;
 using System.IO;
 using Azure.Identity;
 
+//resource container: BlobQuickstartV12
+//instance; identitymigrationstorage
+
 // TODO: Replace <storage-account-name> with your actual storage account name
 var blobServiceClient = new BlobServiceClient(
         new Uri("https://identitymigrationstorage.blob.core.windows.net"),
